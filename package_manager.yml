@@ -1,0 +1,15 @@
+default:
+  install: "sudo apt-get install -y"
+  uninstall: "sudo apt-get remove -y"
+ubuntu:
+  install: "sudo apt-get install -y"
+  uninstall: "sudo apt-get remove -y"
+centos:
+  install: "sudo yum install -y"
+  uninstall: "sudo yum remove -y"
+fedora:
+  install: "sudo dnf install -y"
+  uninstall: "sudo dnf remove -y"
+arch:
+  install: "sudo pacman -S --noconfirm"
+  uninstall: "sudo pacman -R --noconfirm"

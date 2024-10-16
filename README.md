@@ -21,8 +21,8 @@ This Python script helps in performing various security checks on your system, i
 
 1. **Clone the repository** (if applicable):
    ```sh
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone [https://github.com/HouseOfAgile/hope.git](https://github.com/HouseOfAgile/hope.git)
+   cd hope
    ```
 
 2. **Create a virtual environment** (recommended):
